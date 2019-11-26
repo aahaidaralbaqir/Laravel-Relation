@@ -1,0 +1,1 @@
+<h1>Pemilik Passport ini adalah {{ $passport->user->name }}</h1>
