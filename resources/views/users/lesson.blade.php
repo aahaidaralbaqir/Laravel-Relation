@@ -3,6 +3,6 @@
 <h2>Daftar Lesson</h2>
 <ul>
     @foreach($lesson->users as $user)
-        <li>{{$user->name}}</li>
+        <li>{{$user->name}} | {{$user->pivot->created_at}} </li>
     @endforeach
 </ul>
