@@ -31,4 +31,7 @@ class User extends Authenticatable
         return $this->hasMany('App\Forum');
     }
 
+    public function lessons() {
+        return $this->belongsToMany('App\Lesson');
+    }
 }

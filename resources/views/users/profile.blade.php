@@ -6,3 +6,10 @@
         <li>{{$forum->title}}</li>
     @endforeach
 </ul>
+
+<h2>Daftar Kelas</h2>
+<ul>
+    @foreach($user->lessons as $lesson)
+        <li>{{$lesson->title}}</li>
+    @endforeach
+</ul>
